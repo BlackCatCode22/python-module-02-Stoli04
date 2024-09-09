@@ -1,17 +1,18 @@
-a = int(input("Enter the first integer: "))
-b = int(input("Enter the second integer: "))
-c = int(input("Enter the third integer: "))
+r = input("Enter the first integer: ")
+m = input("Enter the second integer: ")
+s = input("Enter the third integer: ")
 
-if b > a:
-  if b > c:
-    largest = b
-  else:
-    largest = c
+largest = r
+
+if m > r:
+        if m > s:
+            largest = m
+        else:
+            largest = s
 else:
-  if a > c:
-    largest = a
-else:
-    largest = c
+        if r > s:
+            largest = r
+        else:
+            largest = s
 
-
-print("The largest number is:", largest)
+print("The largest integer is ", largest)
